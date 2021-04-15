@@ -1,0 +1,86 @@
+#animation {
+    max-width: 35px;
+    max-height: 35px;
+    position: absolute;
+    z-index: 10;
+    bottom: -5px;
+    animation-delay: 10s;
+    animation: 50s infinite linear swimming, 10s infinite linear top, play 1s steps(1) infinite reverse, widthChange 1s steps(1) infinite reverse;
+}
+
+#animation-small {
+    visibility: hidden;
+    max-height: 13px;
+    max-width: 13px;
+    position: absolute;
+    z-index: 10;
+    bottom: 0px;
+    animation-delay: 10s;
+    animation: 50s infinite linear swimming-small, 10s infinite linear top, play 1s steps(1) infinite reverse, widthChange-small 1s steps(1) infinite reverse;
+}
+
+@keyframes swimming-small {
+    0% {
+        right: -830px;
+    }
+    100% {
+        right: 1970px;
+    }
+}
+
+@keyframes swimming {
+    0% {
+        right: -800px;
+    }
+    100% {
+        right: 2000px;
+    }
+}
+
+@keyframes widthChange {
+    0% {
+        width: 35px
+    }
+    16.6% {
+        width: 35px
+    }
+    33.3% {
+        width: 34px
+    }
+    50% {
+        width: 33px
+    }
+    66.6% {
+        width: 33px
+    }
+    83.3% {
+        width: 34px
+    }
+    100% {
+        width: 35px;
+    }
+}
+
+@keyframes widthChange-small {
+    0% {
+        width: 12px
+    }
+    16.6% {
+        width: 12px
+    }
+    33.3% {
+        width: 12px
+    }
+    50% {
+        width: 13px
+    }
+    66.6% {
+        width: 13px
+    }
+    83.3% {
+        width: 13px
+    }
+    100% {
+        width: 13px;
+    }
+}

@@ -1,0 +1,15 @@
+- Changed navigation tabs colour from blue to grey
+- Changed navigation tabs font to Courier cause script font
+- Changed body outline colour from white to grey
+- Evened up logo spacing at top
+- Changed background to a darker image
+- Widened body a little
+- Added padding at top and bottom of page
+- Changed socials to icons (needs links)
+- Added social links to footer to appear on every page
+- Evened spacing between 4 face pics
+- Changed to a smarter font
+- Made text style "justify" instead of "center" to neaten up text
+- Added patent pending duck calling card (can remove on request but c'mon look at him go)
+- Changed script page completely, added cards for each and downlaod/watch buttons
+- Altered spacing in directing section and added breaks between videos
